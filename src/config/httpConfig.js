@@ -6,7 +6,7 @@ export const apiRoute = {
 
 
 export const apiFilePath = {
-    apiPath: isDesa ? "http://qa-avenidas-estrategicas.cencosud.corp/api" : "http://avenidasestrategicas.cencosud.corp/api",
+    apiPath: isDesa ? "" : "http://avenidasestrategicas.cencosud.corp/api",
   };
 
 
