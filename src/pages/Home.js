@@ -114,7 +114,7 @@ const Home = () => {
                       <p>
                         <EllipsisText
                           text={langText.centricityConsumer.description}
-                          length={"160"}
+                          length={160}
                         />
                       </p>
                     </div>
@@ -135,7 +135,7 @@ const Home = () => {
                       <p>
                         <EllipsisText
                           text={langText.cybersecurity.description}
-                          length={"160"}
+                          length={160}
                         />
                       </p>
                     </div>
@@ -155,7 +155,7 @@ const Home = () => {
                       <p>
                         <EllipsisText
                           text={langText.digitalStrategy.description}
-                          length={"160"}
+                          length={160}
                         />
                       </p>
                     </div>
@@ -176,7 +176,7 @@ const Home = () => {
                       <p>
                         <EllipsisText
                           text={langText.technologyStrategy.description}
-                          length={"160"}
+                          length={160}
                         />
                       </p>
                     </div>
@@ -197,7 +197,7 @@ const Home = () => {
                       <p>
                         <EllipsisText
                           text={langText.talentManagement.description}
-                          length={"160"}
+                          length={160}
                         />
                       </p>
                     </div>
@@ -217,7 +217,7 @@ const Home = () => {
                       <p>
                         <EllipsisText
                           text={langText.newITModel.description}
-                          length={"150"}
+                          length={150}
                         />
                       </p>
                     </div>
