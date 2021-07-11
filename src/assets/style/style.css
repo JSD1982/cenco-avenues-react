@@ -1,0 +1,605 @@
+.fullscreen-video-wrap {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 876px;
+
+  z-index: 0;
+}
+
+.fullscreen-video-wrap video {
+  min-height: 100%;
+  min-width: 100%;
+}
+/* video */
+.top-bar {
+  color: #ffffff;
+  position: relative;
+  z-index: 20;
+}
+
+.top-bar .icon-menu {
+  max-width: 28px;
+  cursor: pointer;
+  margin-left: 30px;
+}
+.top-bar ul {
+  margin: 0 9px;
+  position: relative;
+  z-index: 7;
+}
+.top-bar ul.lenguage-item li {
+  margin: 0 3px;
+  transition: 0.4s;
+  opacity: 0.6;
+  cursor: pointer;
+  font-family: "Gotham Rounded Book";
+}
+.top-bar ul.lenguage-item li.active {
+  opacity: 1;
+}
+.top-bar ul.lenguage-item li:hover {
+  opacity: 1;
+}
+.top-bar > div {
+  height: 161px;
+  margin-bottom: 20px;
+}
+.top-bar .logo-image {
+  width: 91px;
+}
+.image-forms-background {
+  position: absolute;
+  z-index: 0;
+  top: -40px;
+  margin-left: 0px;
+}
+.image-forms-background img {
+  width: auto;
+  height: 900px;
+}
+.main-container {
+  height: auto;
+}
+
+.main-container__home-page h1 {
+  font-size: 70px;
+  line-height: 72px;
+  font-weight: 500;
+  letter-spacing: -2.5px;
+  display: initial;
+}
+.main-container__home-page p {
+  font-size: 20px;
+  max-width: 584px;
+  line-height: 30px;
+  margin-top: 12px;
+  font-family: "Gotham Rounded Book";
+}
+.main-container__home-page .bkg-gradient {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: auto;
+  background: rgb(0, 49, 182);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 49, 182, 1) 22%,
+    rgba(0, 49, 182, 0) 100%
+  );
+}
+.main-container__home-page .avenue-image-wrap {
+  margin: 145px 0 190px 0;
+}
+.main-container__home-page .avenue-image-wrap .content-image-avenue {
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transform: scale(1);
+  z-index: 5;
+  transition: 0.5s;
+  border-radius: 4px;
+}
+.main-container__home-page .avenue-image-wrap .content-image-avenue:hover {
+  transform: scale(1.5);
+  z-index: 15;
+  background-color: rgb(63, 63, 63);
+}
+.main-container__home-page
+  .avenue-image-wrap
+  .content-image-avenue
+  .content-title-hover {
+  opacity: 0;
+  z-index: 0;
+  position: absolute;
+  top: 0;
+  transition: 0.1s;
+}
+.main-container__home-page
+  .avenue-image-wrap
+  .content-image-avenue:hover
+  .content-title-hover {
+  opacity: 1;
+  z-index: 16;
+  padding: 13px;
+  overflow: hidden;
+}
+.main-container__home-page
+  .avenue-image-wrap
+  .content-image-avenue
+  .content-title-hover
+  h2 {
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 500;
+}
+.main-container__home-page
+  .avenue-image-wrap
+  .content-image-avenue
+  .content-title-hover
+  p {
+  margin-top: 4px;
+  font-size: 11px;
+  font-family: "Gotham Rounded Book";
+  line-height: 15px;
+
+  overflow: hidden;
+}
+.main-container__home-page .content-title ul {
+  margin-top: 40px;
+}
+.main-container__home-page .content-title ul li {
+  margin-right: 35px;
+}
+.main-container__home-page .content-title ul li span {
+  font-size: 22px;
+  line-height: 23px;
+  display: inline-block;
+  font-family: "Gotham Rounded Book";
+  margin-left: 6px;
+}
+.main-container__home-page .content-title ul li span:first-child {
+  font-size: 56px;
+  margin-left: 0px;
+  line-height: 47px;
+  color: #ff8c12;
+  font-weight: bold;
+}
+.main-container__home-page .avenue-image-wrap .content-image-avenue img {
+  position: relative;
+  z-index: 5;
+}
+.main-container__home-page .avenue-image-wrap .content-image-avenue:hover img {
+  max-width: inherit;
+  z-index: 15;
+  filter: blur(25px);
+}
+.main-container__home-page
+  .avenue-image-wrap
+  .content-image-avenue
+  .content-title {
+  position: absolute;
+  opacity: 1;
+  transition: 0.5s;
+  z-index: 10;
+  bottom: 0px;
+  height: 95px;
+  left: 0;
+  width: 100%;
+  padding: 14px;
+  background: rgb(0, 49, 182);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 49, 182, 1) 7%,
+    rgba(0, 49, 182, 0) 100%
+  );
+}
+.main-container__home-page
+  .avenue-image-wrap
+  .content-image-avenue:hover
+  .content-title {
+  opacity: 0;
+  bottom: -25px;
+}
+.main-container__home-page
+  .avenue-image-wrap
+  .content-image-avenue
+  .content-title
+  h2 {
+  font-size: 17px;
+  color: #ffffff;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+header .menu-toogle {
+  position: absolute;
+  width: auto;
+  background-color: #4369c5db;
+  color: #ffffff;
+  border-radius: 38px;
+  background-position: center;
+  right: -10px;
+  animation-name: menu-drop;
+  animation-duration: 0.8s;
+  padding: 40px 28px;
+  z-index: 50;
+  top: 122px;
+  opacity: 1;
+}
+@keyframes menu-drop {
+  from {
+    top: 150px;
+    opacity: 0;
+  }
+  to {
+    top: 122px;
+    opacity: 1;
+  }
+}
+header .menu-toogle ul li {
+  text-align: right;
+  margin-bottom: 10px;
+  font-weight: 500;
+  line-height: 43px;
+}
+header .menu-toogle ul li a {
+  font-size: 18px;
+  height: 43px;
+  width: auto;
+  display: inline-block;
+  padding: 0 21px;
+}
+header .menu-toogle ul li a:hover {
+  background-color: #fff;
+  color: #00001c;
+  box-shadow: 0px 10px 19px #00001c61;
+  border-radius: 31px;
+}
+header .menu-toogle ul li.active a {
+  background-color: #fff;
+  color: #00001c;
+  font-weight: bold;
+  box-shadow: 0px 10px 19px #00001c61;
+  border-radius: 31px;
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  height: 55px;
+  padding: 0 68px;
+  background-color: #2b5ce1;
+  z-index: 1;
+}
+footer.internal-footer {
+  background-color: #2b2b47;
+}
+footer p {
+  font-size: 18px;
+  color: #ffffff;
+  margin-top: 15px;
+  font-family: "Gotham Rounded";
+}
+
+/*internal section*/
+header.backgraund-header {
+  height: 910px;
+}
+header.backgraund-header.bkg-gestion-tealento {
+  background-image: url("../image/Gestión_de_Talento.jpg");
+  background-size: cover;
+  background-position: bottom;
+}
+header.backgraund-header.bkg-customer-centricity {
+  background-image: url("../image/Customer_Centricity.jpg");
+  background-size: cover;
+  background-position: bottom;
+}
+header.backgraund-header.bkg-ciberseguridad {
+  background-image: url("../image/Cyberseguridad_Compliance.jpg");
+  background-size: cover;
+  background-position: bottom;
+}
+header.backgraund-header.bkg-estrategia-digital {
+  background-image: url("../image/Estrategia_Digital.jpg");
+  background-size: cover;
+  background-position: bottom;
+}
+header.backgraund-header.bkg-estrategia-tecnologica {
+  background-image: url("../image/Estrategia_Tecnológica.jpg");
+  background-size: cover;
+  background-position: bottom;
+}
+header.backgraund-header.bkg-modelo-ti {
+  background-image: url("../image/Nuevo_Modelo_TI.jpg");
+  background-size: cover;
+  background-position: bottom;
+}
+header .bread-crumb {
+  position: relative;
+  z-index: 20;
+}
+header .bread-crumb ul li {
+  margin: 0 5px;
+}
+header .bread-crumb > a {
+  background-color: #dee2f2;
+  color: #00001c;
+  border-radius: 20px;
+  padding: 5px 15px;
+}
+
+header .bread-crumb span:before {
+  content: "<";
+  margin-right: 8px;
+  position: relative;
+  font-size: 16px;
+  top: 0px;
+}
+header .bread-crumb a:hover {
+  opacity: 0.8;
+}
+header .title-container-internal {
+  margin-top: 75px;
+}
+header .title-container-internal h1 {
+  font-size: 81px;
+  line-height: 81px;
+  margin-bottom: 14px;
+  max-width: 671px;
+}
+header .title-container-internal p {
+  font-size: 20px;
+  font-family: "Gotham Rounded Book";
+  max-width: 750px;
+}
+.main-internal-container {
+  min-height: 400px;
+  margin-top: -260px;
+}
+.iniciative-menu {
+  width: auto;
+  height: 51px;
+  display: inline-table;
+  background-color: #3d60ca;
+  border-radius: 50px;
+  position: relative;
+  margin-bottom: 75px;
+}
+.iniciative-menu ul {
+  line-height: 50px;
+}
+.iniciative-menu ul li {
+  height: 51px;
+  padding: 0 25px;
+  margin: 0 3px;
+  font-size: 17px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.4s;
+  font-family: "Gotham Rounded";
+}
+.iniciative-menu ul li:hover {
+  color: #3d60ca;
+  background-color: #ffffff;
+}
+.iniciative-menu ul li:first-child {
+  margin-left: 0;
+}
+.iniciative-menu ul li:last-child {
+  margin-right: 0;
+}
+.iniciative-menu ul li.active {
+  color: #3d60ca;
+  background-color: #ffffff;
+}
+.title-iniciative h2 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.title-iniciative p {
+  font-size: 18px;
+}
+.image-item-container {
+  margin: 36px 0;
+}
+.image-item-container > div {
+  margin-bottom: 18px;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: 0.4s;
+  z-index: 0;
+  transition: 0.4s;
+}
+.image-item-container > div:hover {
+  opacity: 1;
+  z-index: 20;
+  transform: scale(1.4);
+  z-index: 20;
+  box-shadow: 0 47px 47px #090909a8;
+}
+.image-item-container > div > div {
+  border-radius: 10px;
+  overflow: hidden;
+  max-height: 183px;
+}
+
+.social-item {
+  background-image: url("../image/linkedin@2x.png");
+  background-repeat: no-repeat;
+  background-size: 47px;
+  height: 47px;
+  padding-left: 60px;
+  /* display: inline-block; */
+  margin: 0 auto 140px auto;
+  width: 456px;
+}
+.social-item p {
+  font-size: 18px;
+  line-height: 51px;
+}
+.social-item a {
+  color: #064fec;
+}
+.button-scroll-up {
+  max-width: 68px;
+  position: fixed;
+  right: -100px;
+  bottom: 100px;
+  cursor: pointer;
+  transition: 0.4s;
+  z-index: 100;
+}
+.button-scroll-up.active {
+  right: 30px;
+}
+.overlay-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -10;
+  opacity: 0;
+  backdrop-filter: blur(0px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.overlay-background.active {
+  transition: 0.3s;
+  z-index: 200;
+  opacity: 1;
+  backdrop-filter: blur(30px);
+}
+.overlay-background.active .modal-content {
+  width: 1196px;
+  min-height: 557px;
+  padding: 57px 60px 57px 40px;
+  background: rgba(255, 255, 255, 0.7);
+  color: #00001c;
+  border-radius: 20px;
+  animation-name: slide-modal;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in-out;
+  position: relative;
+}
+.overlay-background.active .modal-content img {
+  opacity: 1;
+}
+@keyframes slide-modal {
+  from {
+    background: rgba(255, 255, 255, 0);
+    top: -70px;
+  }
+  to {
+    background: rgba(255, 255, 255, 0.7);
+    top: 0px;
+  }
+}
+.modal-content .icon-close {
+  width: 29px;
+  position: absolute;
+  right: 40px;
+  top: 30px;
+  cursor: pointer;
+}
+.modal-content h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+.modal-content p {
+  margin-bottom: 5px;
+}
+.modal-content .file-content {
+  margin-top: 10px;
+}
+.modal-content .file-content img {
+  width: 32px;
+  margin-right: 5px;
+}
+.modal-content .file-content div {
+  margin-right: 25px;
+  cursor: pointer;
+}
+.modal-content button {
+  font-size: 18px;
+  background-color: #dee2f2;
+  border-radius: 50px;
+  padding: 18px 48px;
+}
+.content-loading {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loading-image {
+  opacity: 1;
+  animation-name: fade-animate;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  width: 100px;
+}
+.cont-text-right {
+  margin: 15px 0;
+  height: 262px;
+  overflow: auto;
+  line-height: 25px;
+  font-size: 15px;
+  padding: 0 15px;
+}
+/* animate */
+.fade-animate {
+  opacity: 1;
+  animation-name: fade-animate;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+}
+@keyframes fade-animate {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.slide-animate-left {
+  position: relative;
+  opacity: 1;
+  left: 0;
+  animation-name: slide-animate-left;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+}
+@keyframes slide-animate-left {
+  from {
+    opacity: 0;
+    left: -100px;
+  }
+  to {
+    opacity: 1;
+    left: 0;
+  }
+}
+.slide-animate-top {
+  position: relative;
+  animation-name: slide-animate-top;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+}
+@keyframes slide-animate-top {
+  from {
+    opacity: 0;
+    top: -100px;
+  }
+  to {
+    opacity: 1;
+    top: 0px;
+  }
+}
+/* animate */

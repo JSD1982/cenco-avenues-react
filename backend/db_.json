@@ -1,0 +1,395 @@
+{
+  "result": {
+    "totalAvenues": 6,
+    "avenues": [
+      {
+        "name": "Cyberseguridad y Compliance",
+        "path": "cyberseguridad-y-compliance",
+        "totalIniciatives": 3,
+        "iniciatives": [
+          {
+            "id": "5fc5527e729a330011d0c942",
+            "language": {
+              "es": {
+                "name": "Compliance Regulatorio",
+                "description": ".",
+                "path": "compliance-regulatorio"
+              },
+              "pt": {
+                "name": "Compliance Regulatorio",
+                "description": ".",
+                "path": "compliance-regulatorio"
+              }
+            },
+            "subIniciatives": [
+              {
+                "language": {
+                  "es": {
+                    "$init": true,
+                    "name": "Prueba",
+                    "description": ".",
+                    "responsable": "Información Tecnica SPP Automatica (CMDB)",
+                    "impact": " ",
+                    "scope": " ",
+                    "path": "prueba",
+                    "state": "En desarrollo",
+                    "country": "Perú",
+                    "flag": "Eurofashion",
+                    "businessUnit": "Supermercado"
+                  },
+                  "pt": {
+                    "$init": true,
+                    "name": "Prueba",
+                    "description": ".",
+                    "responsable": "Información Tecnica SPP Automatica (CMDB)",
+                    "impact": " ",
+                    "scope": " ",
+                    "path": "prueba",
+                    "state": "En desarrollo",
+                    "country": "Perú",
+                    "flag": "Eurofashion",
+                    "businessUnit": "Supermercado"
+                  }
+                },
+
+                "url": "",
+                "implementationEndDate": "2021-01-26T03:00:00.000Z",
+                "id": "6001ab3684e9620011c18994",
+                "files": [
+                  {
+                    "path": "/files?fileName=Prueba áéíóú - ÁÉÍÓÚ êẽç - 2.PDF&subIniciativeId=6001ab3684e9620011c18994",
+                    "name": "Prueba áéíóú - ÁÉÍÓÚ êẽç - 2.PDF",
+                    "extension": "application/pdf"
+                  },
+                  {
+                    "path": "/files?fileName=Prueba áéíóú - ÁÉÍÓÚ êẽç.pdf&subIniciativeId=6001ab3684e9620011c18994",
+                    "name": "Prueba áéíóú - ÁÉÍÓÚ êẽç.pdf",
+                    "extension": "application/pdf"
+                  },
+                  {
+                    "path": "/files?fileName=Prueba áéíóú - ÁÉÍÓÚ êẽç.txt&subIniciativeId=6001ab3684e9620011c18994",
+                    "name": "Prueba áéíóú - ÁÉÍÓÚ êẽç.txt",
+                    "extension": "text/plain"
+                  },
+                  {
+                    "path": "/files?fileName=Prueba áéíóú - ÁÉÍÓÚ êẽç.xlsx&subIniciativeId=6001ab3684e9620011c18994",
+                    "name": "Prueba áéíóú - ÁÉÍÓÚ êẽç.xlsx",
+                    "extension": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+                  }
+                ]
+              },
+              {
+                "language": {
+                  "es": {
+                    "$init": true,
+                    "name": "Prueba 2",
+                    "description": "asdas",
+                    "responsable": " ",
+                    "impact": " ",
+                    "scope": " ",
+                    "path": "prueba-2",
+                    "state": "",
+                    "country": "Colombia",
+                    "flag": "Aventura",
+                    "businessUnit": "Supermercado"
+                  },
+                  "pt": {
+                    "$init": true,
+                    "name": "asdasd",
+                    "description": "adsdasd",
+                    "responsable": " ",
+                    "impact": " ",
+                    "scope": " ",
+                    "path": "asdasd",
+                    "state": "",
+                    "country": "Colômbia",
+                    "flag": "Aventura",
+                    "businessUnit": "Supermercado"
+                  }
+                },
+                "countryId": "5fc54dbcd9798b2b8025c179",
+                "stateId": "",
+                "flagId": "5fc54dbcd9798b2b8025c17b",
+                "businessUnitId": "5fc54dbdd9798b2b8025c1a4",
+                "url": "",
+                "implementationEndDate": "",
+                "createdAt": "2021-03-30T14:23:23.630Z",
+                "updatedAt": "2021-05-19T19:17:33.834Z",
+                "id": "606cbb87298d6900184acd4f",
+                "files": []
+              },
+              {
+                "language": {
+                  "es": {
+                    "$init": true,
+                    "name": "Prueba 4",
+                    "description": "-",
+                    "responsable": " ",
+                    "impact": " ",
+                    "scope": " ",
+                    "path": "prueba-4",
+                    "state": "",
+                    "country": "Argentina",
+                    "flag": "Disco - ECommerce",
+                    "businessUnit": "Supermercado"
+                  },
+                  "pt": {
+                    "$init": true,
+                    "name": "Prueba 4",
+                    "description": "-",
+                    "responsable": " ",
+                    "impact": " ",
+                    "scope": " ",
+                    "path": "prueba-4",
+                    "state": "",
+                    "country": "Argentina",
+                    "flag": "Disco - ECommerce",
+                    "businessUnit": "Supermercado"
+                  }
+                },
+                "countryId": "5fc54dbcd9798b2b8025c176",
+                "stateId": "",
+                "flagId": "5fc54dbcd9798b2b8025c182",
+                "businessUnitId": "5fc54dbdd9798b2b8025c1a4",
+                "url": "",
+                "implementationEndDate": "",
+                "createdAt": "2021-05-05T13:36:36.429Z",
+                "updatedAt": "2021-05-27T20:12:02.346Z",
+                "id": "609d8d2eb9d4a00011050911",
+                "files": [
+                  {
+                    "path": "/files?fileName=test.docx&subIniciativeId=609d8d2eb9d4a00011050911",
+                    "name": "test.docx",
+                    "extension": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+                  },
+                  {
+                    "path": "https://josesegundo.digital/imagen-cenco/Imagen2.png",
+                    "name": "10- Seguridad Correo 365.png",
+                    "extension": "image/png"
+                  },
+                  {
+                    "path": "/files?fileName=test.pdf&subIniciativeId=609d8d2eb9d4a00011050911",
+                    "name": "test.pdf",
+                    "extension": "application/pdf"
+                  },
+                  {
+                    "path": "/files?fileName=test.pptx&subIniciativeId=609d8d2eb9d4a00011050911",
+                    "name": "test.pptx",
+                    "extension": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+                  }
+                ]
+              },
+              {
+                "language": {
+                  "es": {
+                    "$init": true,
+                    "name": "Prueba carga multiarchivos",
+                    "description": "Prueba carga multiarchivos",
+                    "responsable": " ",
+                    "impact": " ",
+                    "scope": " ",
+                    "path": "prueba-carga-multiarchivos",
+                    "state": "",
+                    "country": "Chile",
+                    "flag": "Easy",
+                    "businessUnit": "Clientes"
+                  },
+                  "pt": {
+                    "$init": true,
+                    "name": "Prueba carga multiarchivos",
+                    "description": "Prueba carga multiarchivos",
+                    "responsable": " ",
+                    "impact": " ",
+                    "scope": " ",
+                    "path": "prueba-carga-multiarchivos",
+                    "state": "",
+                    "country": "Chile",
+                    "flag": "Easy",
+                    "businessUnit": "Clientes"
+                  }
+                },
+                "countryId": "5fc54dbcd9798b2b8025c178",
+                "stateId": "",
+                "flagId": "5fc54dbcd9798b2b8025c183",
+                "businessUnitId": "5fc54dbdd9798b2b8025c1a2",
+                "url": "",
+                "implementationEndDate": "",
+                "createdAt": "2021-05-17T15:21:58.640Z",
+                "updatedAt": "2021-05-19T19:16:16.664Z",
+                "id": "60a41bfcdb452b0018e0d10c",
+                "files": []
+              }
+            ],
+            "avenue": {
+              "_id": "5fc54dbcd9798b2b8025c16e",
+              "name": "Cyberseguridad y Compliance",
+              "__v": 0
+            },
+            "totalSubiniciatives": 4
+          },
+
+          {
+            "id": "6093eae5b9d4a000110508f6",
+            "language": {
+              "es": {
+                "name": "áéíóú",
+                "description": "áéíóú&/'\";,+*}{)(?¡!|°êç",
+                "path": "áéíóú"
+              },
+              "pt": {
+                "name": "áéíóú&/'\";,+*}{)(?¡!|°êç",
+                "description": "áéíóú&/'\";,+*}{)(?¡!|°êç",
+                "path": "áéíóú&/'\";,+*}{)(?¡!|°êç"
+              }
+            },
+            "createdAt": "2021-05-05T13:36:41.419Z",
+            "updatedAt": "2021-05-06T13:43:01.493Z",
+            "subIniciatives": [
+              {
+                "language": {
+                  "es": {
+                    "$init": true,
+                    "name": "test",
+                    "description": "áéíóú&/'\";,+*}{)(?¡!|°êç",
+                    "responsable": "áéíóú&/'\";,+*}{)(?¡!|°êç",
+                    "impact": " áéíóú&/'\";,+*}{)(?¡!|°êç",
+                    "scope": " áéíóú&/'\";,+*}{)(?¡!|°êç",
+                    "path": "test",
+                    "state": "Implementado",
+                    "country": "Argentina",
+                    "flag": "Disco - ECommerce",
+                    "businessUnit": "Tiendas por Departamentos"
+                  },
+                  "pt": {
+                    "$init": true,
+                    "name": "áéíóú&/'\";,+*}{)(?¡!|°êç",
+                    "description": "áéíóú&/'\";,+*}{)(?¡!|°êç",
+                    "responsable": "áéíóú&/'\";,+*}{)(?¡!|°êç",
+                    "impact": "áéíóú&/'\";,+*}{)(?¡!|°êç",
+                    "scope": "áéíóú&/'\";,+*}{)(?¡!|°êç",
+                    "path": "áéíóú&/'\";,+*}{)(?¡!|°êç",
+                    "state": "Implementado",
+                    "country": "Argentina",
+                    "flag": "Disco - ECommerce",
+                    "businessUnit": "Lojas de Departamento"
+                  }
+                },
+                "countryId": "5fc54dbcd9798b2b8025c176",
+                "stateId": "5fc54dbcd9798b2b8025c175",
+                "flagId": "5fc54dbcd9798b2b8025c182",
+                "businessUnitId": "5fc54dbdd9798b2b8025c19f",
+                "url": "http://qa-avenidas-estrategicas-admin.cencosud.corp/strategic_avenue/5fc54dbcd9798b2b8025c16e/key_initiative/6093eae5b9d4a000110508f6/sub_initiative_create",
+                "implementationEndDate": "2021-05-06T03:00:00.000Z",
+                "createdAt": "2021-05-05T13:36:36.429Z",
+                "updatedAt": "2021-05-07T14:07:52.026Z",
+                "id": "6093eb43b9d4a000110508f7",
+                "files": [
+                  {
+                    "path": "/files?fileName=Prueba áéíóú - ÁÉÍÓÚ êẽç.pdf&subIniciativeId=6093eb43b9d4a000110508f7",
+                    "name": "Prueba áéíóú - ÁÉÍÓÚ êẽç.pdf",
+                    "extension": "application/pdf"
+                  },
+                  {
+                    "path": "/files?fileName=Prueba áéíóú - ÁÉÍÓÚ êẽç.txt&subIniciativeId=6093eb43b9d4a000110508f7",
+                    "name": "Prueba áéíóú - ÁÉÍÓÚ êẽç.txt",
+                    "extension": "text/plain"
+                  },
+                  {
+                    "path": "https://josesegundo.digital/imagen-cenco/Imagen2.png",
+                    "name": "10- Seguridad Correo 365.png",
+                    "extension": "image/png"
+                  },
+                  {
+                    "path": "https://josesegundo.digital/imagen-cenco/Imagen3.jpg",
+                    "name": "10- Seguridad Correo 365.png",
+                    "extension": "image/png"
+                  },
+
+                  {
+                    "path": "/files?fileName=Prueba áéíóú - ÁÉÍÓÚ êẽç.xlsx&subIniciativeId=6093eb43b9d4a000110508f7",
+                    "name": "Prueba áéíóú - ÁÉÍÓÚ êẽç.xlsx",
+                    "extension": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+                  },
+
+                  {
+                    "path": "/files?fileName=Idea Jumbo App.pptx&subIniciativeId=6093eb43b9d4a000110508f7",
+                    "name": "Idea Jumbo App.pptx",
+                    "extension": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+                  }
+                ]
+              },
+              {
+                "language": {
+                  "es": {
+                    "$init": true,
+                    "name": "Prueba de Juan",
+                    "description": "--",
+                    "responsable": "",
+                    "impact": "",
+                    "scope": "",
+                    "path": "prueba-de-juan",
+                    "state": "",
+                    "country": "Argentina",
+                    "flag": "Aventura",
+                    "businessUnit": "Supermercado"
+                  },
+                  "pt": {
+                    "$init": true,
+                    "name": "Prueba de Juan",
+                    "description": "---",
+                    "responsable": "",
+                    "impact": "",
+                    "scope": "",
+                    "path": "prueba-de-juan",
+                    "state": "",
+                    "country": "Argentina",
+                    "flag": "Aventura",
+                    "businessUnit": "Supermercado"
+                  }
+                },
+                "countryId": "5fc54dbcd9798b2b8025c176",
+                "stateId": "",
+                "flagId": "5fc54dbcd9798b2b8025c17b",
+                "businessUnitId": "5fc54dbdd9798b2b8025c1a4",
+                "url": "",
+                "implementationEndDate": "",
+                "createdAt": "2021-05-05T13:36:36.429Z",
+                "updatedAt": "2021-05-05T13:36:36.429Z",
+                "id": "60954ae2b9d4a00011050909",
+                "files": [
+                  {
+                    "path": "/files?fileName=Idea Jumbo App.pptx&subIniciativeId=6093eb43b9d4a000110508f7",
+                    "name": "Idea Jumbo App.pptx",
+                    "extension": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+                  },
+                  {
+                    "path": "https://josesegundo.digital/imagen-cenco/Imagen3.jpg",
+                    "name": "10- Seguridad Correo 365.png",
+                    "extension": "image/png"
+                  },
+                  {
+                    "path": "https://josesegundo.digital/imagen-cenco/Imagen2.png",
+                    "name": "10- Seguridad Correo 365.png",
+                    "extension": "image/png"
+                  },
+
+                  {
+                    "path": "https://josesegundo.digital/imagen-cenco/Imagen3.jpg",
+                    "name": "10- Seguridad Correo 365.png",
+                    "extension": "image/png"
+                  }
+                ]
+              }
+            ],
+            "avenue": {
+              "_id": "5fc54dbcd9798b2b8025c16e",
+              "name": "Cyberseguridad y Compliance",
+              "__v": 0
+            },
+            "totalSubiniciatives": 2
+          }
+        ]
+      }
+    ]
+  }
+}
